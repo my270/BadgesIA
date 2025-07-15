@@ -1,0 +1,188 @@
+!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges d'Usage de l'IA en Contexte Scolaire</title>
+    <!-- Chargement de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chargement de la police Inter depuis Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Police Inter pour une meilleure lisibilité */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Couleur de fond douce */
+        }
+        /* Styles pour les cartes de badges */
+        .badge-card {
+            background-color: #ffffff;
+            border-radius: 1rem; /* Coins arrondis */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .badge-card:hover {
+            transform: translateY(-5px); /* Effet de survol */
+        }
+        /* Styles pour les images de badges (placeholders) */
+        .badge-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; /* Forme circulaire pour les badges */
+            object-fit: cover;
+            border: 4px solid #0e7658; /* Bordure de couleur pour les badges */
+        }
+    </style>
+</head>
+<body class="p-6">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-gray-900 mb-4">
+                Badges d'usage de l'IA en contexte scolaire
+            </h1>
+            <p class="text-xl text-gray-700 mx-auto text-justify">
+                Ces badges visent à promouvoir la transparence et la réflexion sur l'intégration de l'intelligence artificielle dans les travaux scolaires des élèves.
+            </p>
+        </header>
+
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <!-- Badge: Généré 100% par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=100%25+IA" alt="Badge Généré 100% par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Généré 100% par IA 🧠</h2>
+                <p class="text-gray-600 mb-4">
+                    Le contenu a été entièrement créé par une intelligence artificielle, sans intervention humaine significative.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour des exercices spécifiques, brouillons initiaux, ou démonstrations.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Assisté par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Assisté+IA" alt="Badge Assisté par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Assisté par IA 🤝</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a été utilisée comme outil d'aide à la recherche, à la structuration des idées, ou à la rédaction de certaines parties.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour la majorité des travaux où l'IA est un support à la productivité.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Mis en Forme par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Forme+IA" alt="Badge Mis en Forme par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Mis en forme par IA 🎨</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a été employée pour améliorer la présentation visuelle, la mise en page, ou la création de graphiques.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour les présentations, rapports ou documents nécessitant une esthétique.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Corrigé par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Correction+IA" alt="Badge Corrigé par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Corrigé par IA ✅</h2>
+                <p class="text-gray-600 mb-4">
+                    Le travail a été relu et corrigé (orthographe, grammaire, style) par une intelligence artificielle.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour tous les travaux écrits où un outil de correction est utilisé.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Recherche Optimisée par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Recherche+IA" alt="Badge Recherche Optimisée par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Recherche optimisée par IA 🔍</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a été utilisée pour affiner les requêtes de recherche ou synthétiser des informations.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour les projets de recherche ou les exposés approfondis.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Idéation par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Idéation+IA" alt="Badge idéation par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Idéation par IA 💡</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a servi de "partenaire de brainstorming" pour générer des idées initiales ou des concepts.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Au début d'un projet créatif ou d'une rédaction.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Traduit par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Traduction+IA" alt="Badge Traduit par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Traduit par IA 🌐</h2>
+                <p class="text-gray-600 mb-4">
+                    Le contenu a été traduit d'une langue à une autre à l'aide d'un outil de traduction automatique.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour les cours de langues ou les projets internationaux.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Synthétisé par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Synthèse+IA" alt="Badge Synthétisé par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Synthétisé par IA 📝</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a été utilisée pour condenser ou résumer de longs textes, articles ou documents.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour des revues de littérature ou des résumés de lectures.</p>
+                </div>
+            </div>
+
+            <!-- Badge: Vérifié par IA -->
+            <div class="badge-card p-6 flex flex-col items-center text-center">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Vérification+IA" alt="Badge Vérifié par IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Vérifié par IA 🧐</h2>
+                <p class="text-gray-600 mb-4">
+                    L'IA a été employée pour une vérification préliminaire de faits, de sources ou d'informations.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour les travaux de recherche factuels ou les exposés exigeant de la rigueur.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Badge: Exploration Pédagogique de l'IA (déplacé et centré) -->
+        <div class="flex justify-center mt-12">
+            <div class="badge-card p-6 flex flex-col items-center text-center max-w-sm w-full">
+                <img src="https://placehold.co/100x100/0e7658/ffffff?text=Projet+IA" alt="Badge Exploration Pédagogique de l'IA" class="badge-image mb-4">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Exploration pédagogique de l'IA 🚀</h2>
+                <p class="text-gray-600 mb-4">
+                    Le travail a été réalisé dans le cadre d'une expérimentation ou d'une exploration des capacités de l'IA.
+                </p>
+                <div class="text-sm text-gray-500">
+                    <p class="font-semibold">Usage :</p>
+                    <p>Pour des projets de classe dédiés à l'étude de l'IA.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center mt-12 text-gray-600 text-sm">
+            <p>Ces badges peuvent être utilisés comme icônes numériques ou mentions claires dans les documents.</p>
+            <p>Conçu pour encourager la transparence et la pensée critique.</p>
+        </footer>
+    </div>
+</body>
+</html>
